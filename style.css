@@ -1,0 +1,109 @@
+
+* {
+    margin: 0px;
+}
+
+/* Title and data input */
+.library-heading {
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    padding: 20px;
+}
+
+.input-container {
+    display: flex;
+    gap: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+}
+
+.input-box {
+    border: 1px solid red;
+    width: 30%;
+    padding: 20px;
+}
+
+.text {
+    display: block;
+    width: 20em;
+    height: 30px;
+}
+
+input[placeholder] {
+    font-size: 15px;
+}
+
+.read {
+    width: 6%;
+}
+
+.button {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    color: #f9faf8;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    margin-left: 23px;
+}
+
+.button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.submit {
+    background-color: #3882f6;
+}
+
+/* table */
+.table-title {
+    border: 1px solid black;
+    margin: 40px;
+}
+
+
+table {
+    margin-top: 50px;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    padding: 5px;
+}
+
+td {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+.read-status {
+    background-color: #22c55e;
+    color: #f9faf8;
+}
+
+.not {
+    background-color: #9ca3af;
+    color: #f9faf8;
+}
+
+.delete {
+    background-color: #ef4444;
+    color: #f9faf8;
+}
