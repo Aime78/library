@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Noto+Sans:wght@600&family=Nunito&family=Oswald:wght@700&display=swap" rel="stylesheet">
@@ -17,25 +18,25 @@
             <div class="input-container">
                 <div class="input-box">
                     <label class="label-one">Title</label>
-                    <input type="text" class="text" id="one" name="title" placeholder="Title of the book" autofocus="on" required>
+                    <input type="text" class="text" id="title-input" name="title" placeholder="Title of the book" autofocus="on" required>
                 </div>
 
                 <div class="input-box">
                     <label>Author</label>
-                    <input type="text" class="text" name="author" placeholder="Author of the book" required>
+                    <input type="text" class="text" id="author-input" name="author" placeholder="Author of the book">
                 </div>
 
                 <div class="input-box">
                     <label>Pages</label>
-                    <input type="number" class="text" name="page" placeholder="Number of pages" required>
+                    <input type="number" class="text" id="page-input" name="page" placeholder="Number of pages">
                 </div>
 
                 <div class="input-box read">
                     <label>Read</label>
-                    <input type="checkbox" name="read">
+                    <input type="checkbox" name="read" id="read">
                 </div>
             </div>
-            <button type="submit" class="submit button" value="add">Add</button>
+            <input type="submit" value="Add" class="submit button" id="submit">
         </form>
     </div>
 
@@ -48,27 +49,7 @@
                 <th>Status</th>
                 <th>Remove</th>
             </tr>
-            <tr>
-                <td>Atomic habit</td>
-                <td>James Clear</td>
-                <td>306 pages</td>
-                <td><button class="read-status button">Read</button></td>
-                <td><button class="delete button">Delete</button></td>
-            </tr>
-            <tr>
-                <td>Principles</td>
-                <td>Ray Dalio</td>
-                <td>495 pages</td>
-                <td><button class="read-status button">Read</button></td>
-                <td><button class="delete button">Delete</button></td>
-            </tr>
-            <tr>
-                <td>Thinking fast and slow</td>
-                <td>Daniel Kahneman</td>
-                <td>533 pages</td>
-                <td><button class="not button">Not yet</button></td>
-                <td><button class="delete button">Delete</button></td>
-            </tr>
+
         </table>
     </div>
 </body>
